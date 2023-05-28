@@ -18,7 +18,6 @@ public class InstantCreditCheck {
           notifyUser(qualified);
 
      }
-
      public static void notifyUser(boolean qualified) {
           if(qualified){
                System.out.println("Congratulation!! ");
@@ -26,8 +25,6 @@ public class InstantCreditCheck {
                System.out.println("Sorry, You've been decline");
           }
      }
-
-
      public static boolean isUserQualified(double salary, int creditScore) {
           if(salary >= requiredSalary && creditScore >= requiredCreditScore) {
                return true;
